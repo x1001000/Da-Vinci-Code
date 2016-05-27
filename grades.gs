@@ -1,5 +1,4 @@
 var response = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
-var grade = SpreadsheetApp.getActiveSpreadsheet().getSheets()[1];
 function myFunction() {
   row  = response.getLastRow();
   sum = 0;
